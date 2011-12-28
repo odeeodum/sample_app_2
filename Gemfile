@@ -8,6 +8,13 @@ gem 'jquery-rails'
 
 group :development do
   gem 'rspec-rails'
+  gem 'guard'
+  gem 'rb-inotify', :require => false
+  gem 'rb-fsevent', :require => false
+  gem 'rb-fchange', :require => false
+  gem 'growl_notify'
+  gem 'spork'
+  gem 'guard-spork'
 end
 
 group :test do
