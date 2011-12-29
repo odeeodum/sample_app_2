@@ -15,6 +15,7 @@ group :development do
   gem 'growl_notify'
   gem 'spork'
   gem 'guard-spork'
+  gem 'wirble'
 end
 
 group :test do
